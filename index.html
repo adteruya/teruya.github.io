@@ -2,44 +2,98 @@
 <html lang="en-US">
 
 <head>
-  <title>Ana Teruya's Portal Page</title>
+  <style>
+    body  {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      align-content: center;
+    }
+    .title {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-rows: 0.25fr 0.125fr 0.5fr 0.25fr;
+			max-width: 100vw;
+    }
+    header {
+			grid-row: 1;
+			grid-column: 1 / 5;
+			background-color: Gray;
+		}
+    h2  {
+      background-color: gray;
+      grid-row: 2;
+      text-align: center;
+    }
+    section {
+      grid-row: 3;
+      text-align: justify;
+    }
+    footer  {
+      background-color: gray;
+			grid-row: 4;
+      grid-column: 1 / 5;
+			text-align: center;
+    }
+    #nav {
+      grid-column: 1 / 3;
+    }
+    #assignsec {
+      background-color: red;
+      grid-column: 1 / 2;
+    }
+    #projsec {
+      background-color: green;
+      grid-column: 2 / 3;
+    }
+    #weblay {
+      grid-column: 3 / 5;
+    }
+    #weblaysec  {
+      background-color: yellow;
+      grid-column: 3 / 5;
+    }
+  </style>
+  <title>Ana Teruya's DES 117 Portal Page</title>
 </head>
 <body>
+  <div class="container">
   <header>
-    <h1>Ana Teruya</h1>
-    <h3>Undergraduate Design Major attending the University of California Davis</h3>
+    <h1 class="title">Ana Teruya</h1>
+    <h3 class="title">Undergraduate Design Major attending the University of California Davis</h3>
     <p>Hello! Welcome to my web page for the UC Davis course
       DES 117: Interactive Media I! Here are some of the
       assignments and projects made during this course. Feel free to check them
       all out!</p>
   </header>
-  <hr>
-  <section>
-    <h2>Navigation</h2>
-    <h3>Assignments</h3>
-    <ul>
-      <li><a href="storyremix.html">Assignment 1</a></li>
-      <li>Assignment 2</li>
+  <h2 class="title" id="nav">Navigation</h2>
+    <section id="assignsec">
+      <h3 class="title">Assignments</h3>
       <ul>
-        <li><a href="exercise2_ex1.html">Page 1</a></li>
-        <li><a href="exercise2_ex2.html">Page 2</a></li>
-        <li><a href="exercise2_ex3.html">Page 3</a></li>
+        <li><a href="storyremix.html">Assignment 1</a></li>
+        <li>Assignment 2</li>
+        <ul>
+          <li><a href="exercise2_ex1.html">Page 1</a></li>
+          <li><a href="exercise2_ex2.html">Page 2</a></li>
+          <li><a href="exercise2_ex3.html">Page 3</a></li>
+        </ul>
+        <li><a href="TeruyaWooEX03_Des117.html">Assignment 3</a></li>
+        <li><a href="boxmodel-game.html">Assignment 4</a></li>
+        <li><a href="montserrat_web_font_page.html">Assignment 5</a></li>
+        <li><a href="#">Assignment 6</a></li>
+        <li><a href="#">Assignment 7</a></li>
       </ul>
-      <li><a href="TeruyaWooEX03_Des117.html">Assignment 3</a></li>
-      <li><a href="boxmodel-game.html">Assignment 4</a></li>
-      <li><a href="montserrat_web_font_page.html">Assignment 5</a></li>
-      <li><a href="#">Assignment 6</a></li>
-      <li><a href="#">Assignment 7</a></li>
-    </ul>
-    <h3>Projects</h3>
-    <ul>
-      <li><a href="blog-home-page.html">Blog Project</a></li>
-      <li><a href="#">Portfolio</a></li>
-    </ul>
-  </section>
-  <hr>
-  <section>
-    <h2>Interesting Web Layouts</h2>
+    </section>
+    <section id = "projsec">
+      <h3 class="title">Projects</h3>
+      <ul>
+        <li><a href="blog-home-page.html">Blog Project</a></li>
+        <li><a href="#">Portfolio</a></li>
+      </ul>
+    </section>
+  <h2 class="title" id="weblay">Interesting Web Layouts</h2>
+  <section id="weblaysec">
     <ul>
       <li><a href="https://www.behance.net/gallery/63383203/Yoga-web-design-concept">Yoga Web Design Concept by Julius Guevarra</a></li>
       <li><a href="https://www.behance.net/gallery/37703399/Dottopia-web-design-UXUI">Dottopia Web Design UX/UI by Baianat</a></li>
@@ -47,12 +101,12 @@
       <li><a href="https://www.behance.net/gallery/18999519/Narrow-Web-design">Narrow Web Design by Kristoffer Kvale</a></li>
     </ul>
   </section>
-  <hr>
-  <footer>
+  <footer class="title">
     <p><em>&copy; Ana Teruya | 2018</em></p>
     <p>Contact: <a href="mailto:&#097;&#100;&#116;&#101;&#114;&#117;&#121;&#097;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#097;&#100;&#116;&#101;&#114;&#117;&#121;&#097;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></p>
     <p><a href="http://validator.w3.org/#validate_by_uri">Valid HTML 5</a></p>
   </footer>
+</div>
 </body>
 
 </html>
