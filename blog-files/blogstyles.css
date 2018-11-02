@@ -1,7 +1,3 @@
-
-/*Sets the width of the overall page container div
-to 90% of viewport width and margin:auto centers the page
-in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: 0px;
   width: auto;
@@ -15,14 +11,22 @@ in the middle of the browser no matter how wide you stretch the browser*/
   height: auto;
   width: auto;
   margin: auto;
-  padding: 0.25rem;
+  padding: 1rem;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
 }
 
 header {
   background-image: url("news-back.jpg");
-  background-repeat: no-repeat;
   padding: 2rem;
   text-align: center;
+  font-size: 2.25rem;
+}
+
+h2  {
+  font-size: 2rem;
 }
 /*Unordered list in the navbar is set to display flex with wrapping
 so at smaller size-mobile width--it wraps vertically in a row
@@ -37,12 +41,12 @@ nav ul {
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
   background: #11b840;
-  height: 2rem;
+  height: 3rem;
   width: 36rem;
-  padding-top: 1rem;
-  border-color: black;
+  padding-top: 1.5rem;
   border: solid;
-  border-width: 1px;
+  border-width: 4px;
+  border-color: white;
   text-align: center;
 }
 /*Takes away the default underlining of links and sets color of menu font*/
@@ -68,7 +72,13 @@ article {
 }
 
 footer {
-  background: #a2d492;
+  background-image: url("news-back.jpg");
   padding: 2rem;
   text-align: center;
+  font-size: 1rem;
+}
+
+#parafont {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.25rem;
 }
