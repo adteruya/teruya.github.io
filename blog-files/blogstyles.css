@@ -3,12 +3,24 @@
 to 90% of viewport width and margin:auto centers the page
 in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
+  margin: 0px;
+  width: auto;
+  height: auto;
+  padding: 0px;
+}
+
+.transparentbox {
+  background: rgba(255,255,255,0.85);
+  position: sticky;
+  height: auto;
+  width: auto;
   margin: auto;
-  width: 90vw;
+  padding: 0.25rem;
 }
 
 header {
-  background: #a2d492;
+  background-image: url("news-back.jpg");
+  background-repeat: no-repeat;
   padding: 2rem;
   text-align: center;
 }
@@ -50,6 +62,7 @@ which page you are on--in this case the home page*/
 }
 
 article {
+  text-align: justify;
   padding-left: 2rem;
   padding-right: 2rem;
 }
