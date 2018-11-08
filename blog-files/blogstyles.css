@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  background-image: url("news-back.jpg");
+  background-image: url("computer-cup-desk-434337.jpg");
   height: auto;
   padding: 2rem;
   text-align: center;
@@ -46,7 +46,7 @@ nav ul {
 }
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: #8B4513;
+  background: #8ac7db;
   height: 3rem;
   width: 36rem;
   padding-top: 1.5rem;
@@ -63,7 +63,7 @@ nav ul li a {
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
-  background: #eda978;
+  background: #2a7189;
 }
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page*/
@@ -86,7 +86,7 @@ article {
 
 footer {
   font-family: 'Barlow', sans-serif;
-  background-image: url("news-back.jpg");
+  background-image: url("computer-cup-desk-434337.jpg");
   padding: 2rem;
   text-align: center;
   font-size: 1rem;
