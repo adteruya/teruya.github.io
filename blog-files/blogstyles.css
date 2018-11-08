@@ -6,7 +6,7 @@
 }
 
 .transparentbox {
-  background: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.50);
   position: sticky;
   height: auto;
   width: auto;
@@ -16,10 +16,12 @@
 
 body {
   font-family: 'Libre Baskerville', serif;
+  background: #f2f2f2;
 }
 
 header {
   background-image: url("news-back.jpg");
+  height: auto;
   padding: 2rem;
   text-align: center;
   font-size: 2.25rem;
@@ -40,20 +42,20 @@ nav ul {
 }
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: #11b840;
+  background: #C0C0C0;
   height: 3rem;
   width: 36rem;
   padding-top: 1.5rem;
   border: solid;
   border-width: 4px;
-  border-color: white;
+  border-color: #f2f2f2;
   text-align: center;
 }
 /*Takes away the default underlining of links and sets color of menu font*/
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
-  color: #e7d067;
+  color: white;
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
