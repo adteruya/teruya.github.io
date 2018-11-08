@@ -6,7 +6,7 @@
 }
 
 .transparentbox {
-  background: rgba(255,255,255,0.50);
+  background: rgba(255,255,255,0.65);
   position: sticky;
   height: auto;
   width: auto;
@@ -15,8 +15,8 @@
 }
 
 body {
-  font-family: 'Libre Baskerville', serif;
-  background: #f2f2f2;
+  font-family: 'Nixie One', cursive;
+  background: white;
 }
 
 header {
@@ -30,6 +30,10 @@ header {
 h2  {
   font-size: 2rem;
 }
+
+h3  {
+  font-family: 'Nixie One', cursive;
+}
 /*Unordered list in the navbar is set to display flex with wrapping
 so at smaller size-mobile width--it wraps vertically in a row
 and at larger screen widths it spreads more horizontally.
@@ -42,13 +46,13 @@ nav ul {
 }
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: #C0C0C0;
+  background: #8B4513;
   height: 3rem;
   width: 36rem;
   padding-top: 1.5rem;
   border: solid;
   border-width: 4px;
-  border-color: #f2f2f2;
+  border-color: white;
   text-align: center;
 }
 /*Takes away the default underlining of links and sets color of menu font*/
@@ -59,12 +63,12 @@ nav ul li a {
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
-  background: #e9892f;
+  background: #eda978;
 }
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page*/
 .locationmarker {
-  background: #4b8552;
+  background: #5a2d0c;
 }
 
 article {
