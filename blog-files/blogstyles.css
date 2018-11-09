@@ -24,7 +24,7 @@ header {
   height: auto;
   padding: 2rem;
   text-align: center;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
 }
 
 h2  {
@@ -39,6 +39,8 @@ so at smaller size-mobile width--it wraps vertically in a row
 and at larger screen widths it spreads more horizontally.
 And justify-content centers flex blox content*/
 nav ul {
+  padding: 0;
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -46,7 +48,7 @@ nav ul {
 }
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: #8ac7db;
+  background: #3ca1c3;
   height: 3rem;
   width: 36rem;
   padding-top: 1.5rem;
@@ -93,6 +95,7 @@ footer {
 }
 
 #parafont {
+  justify-content: flex-start;
   font-family: 'Barlow', sans-serif;
   font-size: 1.25rem;
 }
