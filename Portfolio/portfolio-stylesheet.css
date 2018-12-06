@@ -31,11 +31,6 @@
     width: auto;
   }
 
-  .logo {
-    height: 10%;
-    width: auto;
-  }
-
   .footer {
     flex-shrink: 0;
   }
@@ -52,17 +47,17 @@
 
   header  {
     font-family: 'Righteous', cursive;
-    background-color: #20B2AA;
+    background-color: #ffe4b5;
     padding-left: 3rem;
   }
 
   footer  {
     margin-top: auto;
-    background-color: #20B2AA;
+    background-color: #ffe4b5;
   }
 
   div {
-    background-color: #e9fbfa;
+    background-color: #ffe4b5;
   }
 }
 
@@ -99,18 +94,26 @@ img {
 }
 
 div {
-  background-color: #e9fbfa;
+  background-color: #c0bb72;
   text-align: center;
 }
 
 h2  {
-  font-family: 'Righteous', cursive;
+  font-family: 'Titillium Web', sans-serif;
+  color: #5c5241;
+}
+
+hr  {
+  height: 3px;
+  color: #5c5241;
+  background-color: #5c5241;
+  border: none;
 }
 
 header  {
   font-family: 'Righteous', cursive;
-  color: white;
-  background-color: #20B2AA;
+  color: #5c5241;
+  background-color: #c0bb72;
   text-align: center;
   padding: 4rem;
   height: auto;
@@ -118,9 +121,10 @@ header  {
 }
 
 footer  {
-  background-color: #20B2AA;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #c0bb72;
   text-align: center;
-  padding: 2rem;
+  padding: 3rem;
   height: auto;
   width: auto;
 }
