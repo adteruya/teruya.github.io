@@ -15,21 +15,24 @@
   .flexingRow {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     text-align: justify;
   }
 
-  .about  {
+  /*.about  {
     width: auto;
+    padding: 3rem;
   }
 
   .projects {
     width: auto;
+    padding: 3rem;
   }
 
   .contactinfo  {
     width: auto;
-  }
+    padding: 3rem;
+  }*/
 
   .footer {
     flex-shrink: 0;
@@ -41,7 +44,8 @@
   }
 
   img {
-    height: 40%;
+    max-width: 500px;
+    height: auto;
     width: auto;
   }
 
@@ -70,7 +74,7 @@
   padding: 0rem;
 }
 
-.about  {
+/*.about  {
   padding: 3rem;
 }
 
@@ -80,6 +84,10 @@
 
 .contactinfo  {
   padding: 3rem;
+}*/
+
+.footer {
+  flex-shrink: 0;
 }
 
 body  {
@@ -88,7 +96,8 @@ body  {
 }
 
 img {
-  height: 35%;
+  max-width: 200px;
+  height: auto;
   width: auto;
 }
 
@@ -122,5 +131,4 @@ footer  {
   background-color: #c0bb72;
   text-align: center;
   padding: 3rem;
-
 }
