@@ -74,17 +74,9 @@
   padding: 0rem;
 }
 
-/*.about  {
-  padding: 3rem;
+.profile  {
+  border-radius: 20%;
 }
-
-.projects {
-  padding: 3rem;
-}
-
-.contactinfo  {
-  padding: 3rem;
-}*/
 
 .footer {
   flex-shrink: 0;
@@ -95,8 +87,15 @@ body  {
   height: 100%;
 }
 
+p {
+  text-align: justify;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 img {
   max-width: 200px;
+  padding: 1rem;
   height: auto;
   width: auto;
 }
