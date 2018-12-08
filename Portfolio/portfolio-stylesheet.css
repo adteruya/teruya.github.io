@@ -76,6 +76,14 @@
   padding: 0rem;
 }
 
+.home {
+  max-width: 70px;
+  padding: 1rem;
+  height: auto;
+  width: auto;
+  justify-content: center;
+}
+
 .portfolioimgs  {
   padding: 2rem;
   justify-content: center;
