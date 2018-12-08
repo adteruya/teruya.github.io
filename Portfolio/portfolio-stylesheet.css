@@ -17,8 +17,10 @@
     flex-direction: row;
     justify-content: space-around;
     text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
-  
+
   .footer {
     flex-shrink: 0;
   }
@@ -29,9 +31,16 @@
   }
 
   img {
+    image-orientation: from-image;
     max-width: 500px;
     height: auto;
     width: auto;
+  }
+
+  h2  {
+    font-family: 'Righteous', cursive;
+    color: #5c5241;
+    text-align: justify;
   }
 
   header  {
@@ -56,7 +65,17 @@
   display: flex;
   flex-direction: column;
   margin: auto;
+  height: 100%;
+  width: 100%;
   padding: 0rem;
+}
+
+.portfolioimgs  {
+  padding: 2rem;
+  justify-content: center;
+  max-width: 350px;
+  height: auto;
+  width: auto;
 }
 
 .profile  {
@@ -65,6 +84,7 @@
 
 .footer {
   flex-shrink: 0;
+  text-align: center;
 }
 
 body  {
@@ -73,9 +93,11 @@ body  {
 }
 
 p {
+  font-family: 'Titillium Web', sans-serif;
+  color: #5c5241;
+  font-size: 1rem;
   text-align: justify;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 2rem;
 }
 
 img {
@@ -91,8 +113,15 @@ div {
 }
 
 h2  {
+  font-family: 'Righteous', cursive;
+  color: #5c5241;
+  text-align: center;
+}
+
+h3  {
   font-family: 'Titillium Web', sans-serif;
   color: #5c5241;
+  text-align: center;
 }
 
 hr  {
