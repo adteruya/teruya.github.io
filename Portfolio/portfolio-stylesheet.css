@@ -106,6 +106,10 @@ p {
   padding: 2rem;
 }
 
+article {
+  padding: 2rem;
+}
+
 img {
   max-width: 200px;
   padding: 1rem;
