@@ -18,22 +18,7 @@
     justify-content: space-around;
     text-align: justify;
   }
-
-  /*.about  {
-    width: auto;
-    padding: 3rem;
-  }
-
-  .projects {
-    width: auto;
-    padding: 3rem;
-  }
-
-  .contactinfo  {
-    width: auto;
-    padding: 3rem;
-  }*/
-
+  
   .footer {
     flex-shrink: 0;
   }
