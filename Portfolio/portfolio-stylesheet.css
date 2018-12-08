@@ -43,6 +43,12 @@
     text-align: justify;
   }
 
+  h3  {
+    font-family: 'Titillium Web', sans-serif;
+    color: #5c5241;
+    text-align: justify;
+  }
+
   header  {
     font-family: 'Righteous', cursive;
     background-color: #ffe4b5;
@@ -107,6 +113,7 @@ p {
 }
 
 article {
+  font-size: 1rem;
   padding: 2rem;
 }
 
